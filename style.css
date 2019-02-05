@@ -1,0 +1,187 @@
+#home {
+  background-image: url(web3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  background-color: rgba(0, 0, 0, 0);
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+}
+.nav a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 2px;
+  font-family: 'Special Elite', cursive;
+}
+@media screen and (min-width: 600px) {
+  .nav li {
+    float: left;
+    padding-left: 30px;
+    padding-right: 25px;
+  }
+}
+.nav ul {
+  overflow: auto;
+  width: 600px;
+  height: 60px;
+  margin: auto;
+
+}
+.homenav {
+  border-right: 1px solid white
+}
+.aboutnav {
+  border-right: 1px solid white
+}
+.journeynav {
+  border-right: 1px solid white
+}
+.contactnav {
+
+}
+
+.nav a:hover {
+  transition: transform 1s;
+  transform: scale(1.5);
+}
+.click {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 630px;
+  background-color: black;
+  padding: 30px;
+}
+#about {
+  background-color: black;
+}
+#about1 {
+  background-image: url(kids6.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  padding-left: 35px;
+  height: 300px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.about {
+  font-family: 'Special Elite', cursive;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 50px;
+  background-color: #F5F5F5;
+  padding: 30px;
+  border: 30px solid black;
+}
+#journey {
+  background-image: url(code1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.journeytext {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  background-color: #F5F5F5;
+  border: 1px solid black;
+  margin: 120px;
+  padding: 10px;
+}
+h1.journey {
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-left: 30px;
+}
+h3.journey {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-left: 30px;
+}
+ul.journey {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  list-style-type: none;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+div.journey {
+  background-color: #F5F5F5;
+  border: 1px solid black;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+  padding: 10px;
+  margin-top: -50px;
+}
+#contact {
+  background-color: black;
+}
+h1.contact {
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-left: 30px;
+}
+div.contact {
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 100px;
+  color: white;
+}
+.fname {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.lname {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+.age {
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.country {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+#questions {
+  margin-left: 0;
+  margin-top: 10px;
+}
+.comment {
+  margin-right: 185px;
+}
+#questions {
+  margin-left: 100px;
+}
+.form {
+  border: 5px solid white;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 50px;
+}
